@@ -112,15 +112,6 @@
 	font-size: 34px;
 }
 
-#sipe {
-	border-radius: 100%;
-	width: 20%;
-	position: absolute;
-	z-index: 2;
-	top: 140px;
-	left: 200px;
-}
-
 .namahd {
 	font-size: 35px;
 	height: 380px;
@@ -173,8 +164,8 @@
     .modal-content {
         margin: auto;
         display: block;
-        width: 80%;
-        max-width: 700px;
+        width: 50%;
+        max-width: 400px;
     }
     
     /* Caption of Modal Image */
@@ -186,7 +177,7 @@
         text-align: center;
         color: #ccc;
         padding: 10px 0;
-        height: 150px;
+        height: 100px;
     }
     
     /* Add Animation */
@@ -242,4 +233,30 @@
   #aboutsub {
     color: rgb(74, 74, 74);
     line-height: 150%;
+  }
+
+  .button {
+    background-color: #4683a9;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 7px;
+    font-family: 'Plus Jakarta Sans';
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4683a9;;
+  }
+  
+  .button1:hover {
+    background-color: #4683a9;
+    color: white;
   }
