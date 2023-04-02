@@ -14,7 +14,7 @@
     width: 100%;
     background-color: #fff;
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
   }
   
   .nav > .nav-header {
@@ -25,7 +25,7 @@
     display: inline-block;
     font-size: 30px;
     color: #576CBC;
-    padding: 30px 40px;
+    padding: 25px 40px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 800;
   }
@@ -102,23 +102,34 @@
   }
 
 /* HEADER */
-.flex-container {
-    display: flex;
-}
-  
-.flex-container > div {
-    padding: 5px;
-    padding-left: 200px;
+#nama {
+	font-weight: 600;
+	letter-spacing: 2px;
 }
 
-#sipe {
-    font-weight: 600;
-    color: #576CBC;
-    font-size: 40px;
+#prof {
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 2px;
 }
 
-#pedia {
-    font-weight: 600;
-    color: rgb(93, 93, 93);
-    font-size: 30px;
+.sipe {
+	border-radius: 100%;
+	width: 20%;
+	position: absolute;
+	z-index: 2;
+	top: 140px;
+	left: 200px;
+}
+
+.namahd {
+	font-size: 35px;
+	height: 380px;
+	padding: 120px 150px 50px 70px;
+	line-height: 10px;
+	background:  url(img/header.png);
+	background-position: center;
+	background-size: cover;
+	text-align: right;
+	color: white;
 }
