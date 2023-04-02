@@ -122,14 +122,14 @@
 	background-size: cover;
 	text-align: right;
 	color: white;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 /* ABOUT ME */
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
   }
   
   .flex-container > div {
