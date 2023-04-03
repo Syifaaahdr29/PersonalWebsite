@@ -518,6 +518,7 @@ hr {
   line-height: 200%;
   text-align: left;
   margin-left: 40px;
+  margin-bottom: 50px;
 }
 
 #aboutmetitle {
@@ -531,4 +532,80 @@ hr {
 #aboutmesub {
   color: rgb(74, 74, 74);
   line-height: 150%;
+}
+
+/*PARALLAX*/
+.parallaxabtme {
+  background-image: url("img/parallax.jpg");
+  min-height: 380px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+#toolsub {
+  padding-top: 60px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(211, 211, 211);
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 40%;
+}
+
+#tooltitle {
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  line-height: 40%;
+  font-size: 30px;
+}
+
+.flex-container7 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 40px 40px 40px 150px;
+}
+
+.flex-container7 > .consocmed {
+  width: 810px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border: solid 1px rgba(255, 255, 255, 0.771);
+  border-radius: 14px;
+  align-items: center;
+}
+
+.conkosong {
+  width: 175px;
+}
+
+#descsocmed {
+  font-size: 10px;
+  font-weight: 300;
+  color: white;
+  letter-spacing: 2px;
+  line-height: 120%;
+  max-width: 170px;
+  padding-bottom: 10px;
+}
+
+#tableme > th, td{
+padding-left: 30px;
+padding-right: 30px;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+}
+
+#iconme {
+  padding: 10px 30px 0px 30px;
+  opacity: 0.9;
+  line-height: 140%;
 }
