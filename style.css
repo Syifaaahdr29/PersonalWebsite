@@ -518,7 +518,7 @@ hr {
   line-height: 200%;
   text-align: left;
   margin-left: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 #aboutmetitle {
@@ -536,13 +536,13 @@ hr {
 
 /*PARALLAX*/
 .parallaxabtme {
-  background-image: url("img/parallax.jpg");
+  background-image: url("img/parallax2.jpg");
   min-height: 380px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
 #toolsub {
