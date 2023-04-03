@@ -425,3 +425,31 @@ hr {
 .text-center {
   text-align: center;
 }
+
+/* ------------- ABOUT ME ----------------*/
+#cam {
+    border-radius: 100%;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+#aboutme {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 200%;
+  text-align: left;
+  margin-left: 40px;
+}
+
+#aboutmetitle {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 50%;
+  text-align: left;
+  color: rgb(46, 46, 46);
+}
+
+#aboutmesub {
+  color: rgb(74, 74, 74);
+  line-height: 150%;
+}
