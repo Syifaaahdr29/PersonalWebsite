@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome!</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap');
+        </style>
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+              <div class="nav-title">
+                syifaaahdr.
+              </div>
+            </div>
+            <div class="nav-btn">
+              <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+            </div>
+            
+            <div class="nav-links">
+                <a href="index.html" style="color: #1a4662;">Homepage</a>
+                <a href="aboutme.html">About me</a>
+                <a href="portofolio.html">Portofolio</a>
+                <a href="article.html">Article</a>
+            </div>
+          </div>
+        <!-- HEADER -->
+        <div class="header">
+            <div class="namahdart">
+                <h2 id="namaart">Article Pages</h2>
+                <p id="profart">some article of my daily life activity</p>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>About Me</h4>
+              <p>Thanks for coming. Feel free to email me about anything. Do you have some feedback or suggestions? You can also reach me around Instagram or Email.</p>
+            </div>
+            <div class="col-md-4">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="portofolio.html">Portofolio</a></li>
+                <li><a href="article.html">Article</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h4>Contact Me</h4>
+              <p>Kota Bandung, Jawa Barat, Indonesia.<br>
+              Instagram : Syifaaahdr<br>
+              Email: syifaaahdr29@gmail.com</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <hr>
+              <p class="text-center">&copy; 2023 by Syifa Hadiarti</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a5d52b0889.js" crossorigin="anonymous"></script>
+    <script>
+        // photo modal in about me
+            var modal = document.getElementById('myModal');
+
+            var img = document.getElementById('myImg');
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+            modal.style.display = "none";
+            }
+    </script>
+</html>

@@ -611,7 +611,7 @@ margin-top: 20px;
   line-height: 140%;
 }
 
-/* ------------- ABOUT ME ----------------*/
+/* ------------- PORTOFOLIO ----------------*/
 #portocategory {
   font-weight: 800;
   text-align: left;
@@ -669,4 +669,29 @@ margin-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   width: 400px;
+}
+
+/* ------------- ARTICLE ----------------*/
+/* HEADER */
+#namaart {
+	font-weight: 800;
+	letter-spacing: 2px;
+}
+
+#profart {
+	font-weight: 300;
+	font-size: 23px;
+}
+
+.namahdart {
+	font-size: 35px;
+	height: 300px;
+	padding: 80px 150px 50px 70px;
+	line-height: 8px;
+	background:  url(img/header3.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: right;
+	color: white;
+  margin-bottom: 100px;
 }
