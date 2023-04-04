@@ -399,6 +399,7 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 300px;
+  cursor: pointer;
 }
 
 div.gallery:hover {
@@ -609,6 +610,7 @@ margin-top: 20px;
   padding: 10px 30px 0px 30px;
   opacity: 0.9;
   line-height: 140%;
+  cursor: pointer;
 }
 
 /* ------------- PORTOFOLIO ----------------*/
@@ -638,7 +640,7 @@ margin-top: 20px;
   padding: 10px 15px;
   text-align: center;
   font-size: 15px;
-  margin-left: 650px;
+  margin-left: 630px;
   margin-bottom: 30px;
   transition-duration: 0.4s;
   cursor: pointer;
@@ -750,5 +752,6 @@ margin-top: 20px;
   letter-spacing: 2px;
   color: rgb(88, 88, 88);
   line-height: 100%;
+  cursor: pointer;
 }
 
