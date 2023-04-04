@@ -695,3 +695,60 @@ margin-top: 20px;
 	color: white;
   margin-bottom: 100px;
 }
+
+.flex-container9 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#tglart {
+  width: 70px;
+  margin: 30px 40px 10px 150px;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: rgb(88, 88, 88);
+  line-height: 50%;
+}
+
+#imgart {
+  width: 500px;
+  margin: 10px 40px 10px 10px;
+  text-align: left;
+  font-size: 30px;
+}
+
+#descart {
+  width: 500px;
+  margin: 10px;
+  text-align: left;
+}
+
+#titleart {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: rgb(88, 88, 88);
+  line-height: 100%;
+}
+
+#reactart {
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(88, 88, 88);
+  line-height: 150%;
+  font-family: 'Roboto Slab', serif;
+  src: url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet');
+}
+
+#readart {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: rgb(88, 88, 88);
+  line-height: 100%;
+}
+
